@@ -1,4 +1,4 @@
 name: Run unit tests
 
 env:
-  OPENAI_API_K
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_K
