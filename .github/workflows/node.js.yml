@@ -10,4 +10,6 @@ on:
     branches: [ "master" ]
 jobs:
   build:
-    runs-on: ubuntu-20.
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
