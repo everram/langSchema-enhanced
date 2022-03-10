@@ -19,4 +19,5 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 8
-      - name: Use Node.js ${{ matr
+      - name: Use Node.js ${{ matrix.node-version }}
+        use
