@@ -20,4 +20,4 @@ jobs:
         with:
           version: 8
       - name: Use Node.js ${{ matrix.node-version }}
-        use
+        uses: actions/setup-node@v3
