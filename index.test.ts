@@ -1,2 +1,3 @@
 import * as schema from './index'
-import {confi
+import {config} from 'dotenv'
+import {z} fr
