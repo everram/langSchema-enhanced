@@ -1,1 +1,2 @@
-import * as schema 
+import * as schema from './index'
+import {confi
