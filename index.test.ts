@@ -1,3 +1,8 @@
 import * as schema from './index'
 import {config} from 'dotenv'
-import {z} fr
+import {z} from 'zod'
+
+config()
+
+
+describe("zod
