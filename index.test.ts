@@ -6,4 +6,4 @@ config()
 
 
 describe("zod tests", () => {
-  it("should 
+  it("should parse numbers", () => expect(schema.asZ
