@@ -6,4 +6,4 @@ config()
 
 
 describe("zod tests", () => {
-  it("should parse numbers", () => expect(schema.asZ
+  it("should parse numbers", () => expect(schema.asZodType("what is 2+2", 
