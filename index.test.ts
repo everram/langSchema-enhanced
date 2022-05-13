@@ -10,4 +10,6 @@ describe("zod tests", () => {
   it("should parse objects", () => expect(schema.asZodType("hey i'm jose and i'm 42 years old", z.object({
     name: z.string(),
     age: z.number()
-  }))).resolve
+  }))).resolves.toStrictEqual({
+    name: "jose",
+    ag
