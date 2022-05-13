@@ -12,4 +12,6 @@ describe("zod tests", () => {
     age: z.number()
   }))).resolves.toStrictEqual({
     name: "jose",
-    ag
+    age: 42
+  }))
+  it("should par
