@@ -9,4 +9,5 @@ describe("zod tests", () => {
   it("should parse numbers", () => expect(schema.asZodType("what is 2+2", z.number())).resolves.toBe(4))
   it("should parse objects", () => expect(schema.asZodType("hey i'm jose and i'm 42 years old", z.object({
     name: z.string(),
-    age: 
+    age: z.number()
+  }))).resolve
