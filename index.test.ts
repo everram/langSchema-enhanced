@@ -14,4 +14,4 @@ describe("zod tests", () => {
     name: "jose",
     age: 42
   }))
-  it("should par
+  it("should parse arrays", () => expect(sche
