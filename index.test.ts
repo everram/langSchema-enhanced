@@ -14,4 +14,4 @@ describe("zod tests", () => {
     name: "jose",
     age: 42
   }))
-  it("should parse arrays", () => expect(sche
+  it("should parse arrays", () => expect(schema.asZodType("my favorite color
