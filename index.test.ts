@@ -14,4 +14,4 @@ describe("zod tests", () => {
     name: "jose",
     age: 42
   }))
-  it("should parse arrays", () => expect(schema.asZodType("my favorite colors are red and green", z.array(z.string()).describe("favorite color
+  it("should parse arrays", () => expect(schema.asZodType("my favorite colors are red and green", z.array(z.string()).describe("favorite colors"))).resolves.toStrictEqual(["red"
