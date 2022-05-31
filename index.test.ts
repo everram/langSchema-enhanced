@@ -17,4 +17,5 @@ describe("zod tests", () => {
   it("should parse arrays", () => expect(schema.asZodType("my favorite colors are red and green", z.array(z.string()).describe("favorite colors"))).resolves.toStrictEqual(["red", "green"]))
 })
 
-describe('
+describe('booleans', () => {
+  it("should retur
