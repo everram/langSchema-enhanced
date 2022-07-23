@@ -18,4 +18,4 @@ describe("zod tests", () => {
 })
 
 describe('booleans', () => {
-  it("should return true for a positive review", () => expect(schema.bool("Did this review user like the business? Best bang for your buck. For a price much cheaper than college consultants, I have hundreds of successful Ivy League applications at my finge
+  it("should return true for a positive review", () => expect(schema.bool("Did this review user like the business? Best bang for your buck. For a price much cheaper than college consultants, I have hundreds of successful Ivy League applications at my fingertips.")).resolves.toBe(true)
