@@ -22,4 +22,4 @@ describe('booleans', () => {
 
   it("should handle short strings", () => expect(schema.bool("Did this review user like the business? worst service EVER!")).resolves.toBe(false))
 
-  it("should return false for an empty
+  it("should return false for an empty string", () => expect(schema.bool
