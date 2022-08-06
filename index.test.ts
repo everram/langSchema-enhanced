@@ -25,4 +25,5 @@ describe('booleans', () => {
   it("should return false for an empty string", () => expect(schema.bool("")).resolves.toBe(false))
 })
 
-descr
+describe('enums', () => {
+  it("should clas
