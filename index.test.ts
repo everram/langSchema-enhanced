@@ -26,4 +26,4 @@ describe('booleans', () => {
 })
 
 describe('enums', () => {
-  it("should clas
+  it("should classify basic values correctly"
