@@ -26,4 +26,4 @@ describe('booleans', () => {
 })
 
 describe('enums', () => {
-  it("should classify basic values correctly"
+  it("should classify basic values correctly", () => expect(schema.categorize("My fa
