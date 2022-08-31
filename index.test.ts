@@ -28,4 +28,6 @@ describe('booleans', () => {
 describe('enums', () => {
   it("should classify basic values correctly", () => expect(schema.categorize("My favorite color is red", ["red", "blue", "green"])).resolves.toBe("red"))
 
-  it("should not throw an error for an invalid value", () => expect(schema.categorize("My favorite color is red", ["blue", "green"])).resolves.
+  it("should not throw an error for an invalid value", () => expect(schema.categorize("My favorite color is red", ["blue", "green"])).resolves.not.toThrow())
+
+  it("should classify v
