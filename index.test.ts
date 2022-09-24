@@ -30,4 +30,4 @@ describe('enums', () => {
 
   it("should not throw an error for an invalid value", () => expect(schema.categorize("My favorite color is red", ["blue", "green"])).resolves.not.toThrow())
 
-  it("should classify values with spaces correctly", () => expect(schema.categorize("I prefer watching Science Fiction movies", ["Science Fiction", "Romantic Comedy", "
+  it("should classify values with spaces correctly", () => expect(schema.categorize("I prefer watching Science Fiction movies", ["Science Fiction", "Romantic Comedy", "Action Adventure"])).resolves.to
