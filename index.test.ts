@@ -32,4 +32,4 @@ describe('enums', () => {
 
   it("should classify values with spaces correctly", () => expect(schema.categorize("I prefer watching Science Fiction movies", ["Science Fiction", "Romantic Comedy", "Action Adventure"])).resolves.toBe("Science Fiction"))
 
-  it("shoul
+  it("should classify values with special c
