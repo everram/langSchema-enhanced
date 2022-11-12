@@ -32,4 +32,7 @@ describe('enums', () => {
 
   it("should classify values with spaces correctly", () => expect(schema.categorize("I prefer watching Science Fiction movies", ["Science Fiction", "Romantic Comedy", "Action Adventure"])).resolves.toBe("Science Fiction"))
 
-  it("should classify values with special characters correctly", () => expect(schema.categorize("I enjoy listening to Guns N' Roses", ["AC'DC", "Guns N' Roses", "Léd Zeppelin"])).resolves.toBe("Guns N' 
+  it("should classify values with special characters correctly", () => expect(schema.categorize("I enjoy listening to Guns N' Roses", ["AC'DC", "Guns N' Roses", "Léd Zeppelin"])).resolves.toBe("Guns N' Roses"))
+})
+
+describe('createList fu
