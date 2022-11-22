@@ -35,4 +35,5 @@ describe('enums', () => {
   it("should classify values with special characters correctly", () => expect(schema.categorize("I enjoy listening to Guns N' Roses", ["AC'DC", "Guns N' Roses", "Léd Zeppelin"])).resolves.toBe("Guns N' Roses"))
 })
 
-describe('createList fu
+describe('createList function', () => {
+  it("should class
