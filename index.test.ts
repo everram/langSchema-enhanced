@@ -36,4 +36,5 @@ describe('enums', () => {
 })
 
 describe('createList function', () => {
-  it("should classify multiple basic values correctly", async () 
+  it("should classify multiple basic values correctly", async () => {
+    const values = await sche
