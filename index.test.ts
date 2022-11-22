@@ -36,4 +36,4 @@ describe('enums', () => {
 })
 
 describe('createList function', () => {
-  it("should classify multiple basic value
+  it("should classify multiple basic values correctly", async () 
