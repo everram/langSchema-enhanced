@@ -37,4 +37,4 @@ describe('enums', () => {
 
 describe('createList function', () => {
   it("should classify multiple basic values correctly", async () => {
-    const values = await schema.list("My favorite colors are
+    const values = await schema.list("My favorite colors are red and green", ["red", "b
