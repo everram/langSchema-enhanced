@@ -41,4 +41,4 @@ describe('createList function', () => {
     expect(values).toEqual(["red", "green"])
   })
 
- 
+  it("should handle a mix of va
