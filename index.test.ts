@@ -42,4 +42,4 @@ describe('createList function', () => {
   })
 
   it("should handle a mix of valid and invalid values", async () => {
-    const values
+    const values = await schema.list("My favorite color
