@@ -43,4 +43,7 @@ describe('createList function', () => {
 
   it("should handle a mix of valid and invalid values", async () => {
     const values = await schema.list("My favorite colors are red, green and pink", ["red", "blue", "green"])
-    expect(values).toEqual(["red"
+    expect(values).toEqual(["red", "green"])
+  })
+
+  it("should cl
