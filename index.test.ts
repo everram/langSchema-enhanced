@@ -46,4 +46,4 @@ describe('createList function', () => {
     expect(values).toEqual(["red", "green"])
   })
 
-  it("should classify multiple values wit
+  it("should classify multiple values with special characters corre
