@@ -47,4 +47,4 @@ describe('createList function', () => {
   })
 
   it("should classify multiple values with special characters correctly", async () => {
-    cons
+    const values = await schema.list("I 
