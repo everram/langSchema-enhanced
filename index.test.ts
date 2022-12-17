@@ -48,4 +48,7 @@ describe('createList function', () => {
 
   it("should classify multiple values with special characters correctly", async () => {
     const values = await schema.list("I enjoy listening to AC/DC and Guns N' Roses", ["AC/DC", "Guns N' Roses", "Led Zeppelin"])
-    expect(values).toEqual(["AC/DC", "Guns N' Ro
+    expect(values).toEqual(["AC/DC", "Guns N' Roses"])
+  })
+
+  it("should limit
