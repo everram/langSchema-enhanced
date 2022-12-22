@@ -51,4 +51,5 @@ describe('createList function', () => {
     expect(values).toEqual(["AC/DC", "Guns N' Roses"])
   })
 
-  it("should limit the returned values to the specified maxValues", asyn
+  it("should limit the returned values to the specified maxValues", async () => {
+    const values = await sc
