@@ -52,4 +52,4 @@ describe('createList function', () => {
   })
 
   it("should limit the returned values to the specified maxValues", async () => {
-    const values = await sc
+    const values = await schema.list("I enjoy listening to AC
