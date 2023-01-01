@@ -52,4 +52,5 @@ describe('createList function', () => {
   })
 
   it("should limit the returned values to the specified maxValues", async () => {
-    const values = await schema.list("I enjoy listening to AC/DC, Guns N' Roses, and Led Zeppelin", ["AC/DC", "Guns N' Roses", "Led Zeppeli
+    const values = await schema.list("I enjoy listening to AC/DC, Guns N' Roses, and Led Zeppelin", ["AC/DC", "Guns N' Roses", "Led Zeppelin"], 1, 2)
+    expect(values.
