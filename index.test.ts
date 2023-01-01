@@ -56,4 +56,4 @@ describe('createList function', () => {
     expect(values.length).toBe(2)
   })
 
-  i
+  it("should throw an error when fewer than minV
