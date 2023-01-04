@@ -57,4 +57,4 @@ describe('createList function', () => {
   })
 
   it("should throw an error when fewer than minValues are provided", async () => {
-    aw
+    await expect(schema.list("I enj
