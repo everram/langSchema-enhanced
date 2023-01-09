@@ -57,4 +57,4 @@ describe('createList function', () => {
   })
 
   it("should throw an error when fewer than minValues are provided", async () => {
-    await expect(schema.list("I enjoy listening to AC/DC", [
+    await expect(schema.list("I enjoy listening to AC/DC", ["AC/DC", "Guns N' Roses", "Led Z
