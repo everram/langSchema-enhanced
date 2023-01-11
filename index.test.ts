@@ -63,4 +63,5 @@ describe('createList function', () => {
 
 
 describe('createList function edge cases', () => {
-  it("should handle the edge case where minValues is equal to maxVal
+  it("should handle the edge case where minValues is equal to maxValues", async () => {
+    aw
