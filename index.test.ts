@@ -67,4 +67,4 @@ describe('createList function edge cases', () => {
     await expect(schema.list("I enjoy listening to AC/DC and Guns N' Roses", ["AC/DC", "Guns N' Roses", "Led Zeppelin"], 2, 2)).rejects.toThrow()
   })
 
-  it("should retur
+  it("should return an empty array when no values are 
