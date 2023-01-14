@@ -64,4 +64,4 @@ describe('createList function', () => {
 
 describe('createList function edge cases', () => {
   it("should handle the edge case where minValues is equal to maxValues", async () => {
-    await expect(schema.list("I enjoy listening to AC/DC and Guns N' Roses", ["AC/DC", "Guns N' Roses
+    await expect(schema.list("I enjoy listening to AC/DC and Guns N' Roses", ["AC/DC", "Guns N' Roses", "Led Zeppelin"], 2, 2)).reject
