@@ -68,4 +68,5 @@ describe('createList function edge cases', () => {
   })
 
   it("should return an empty array when no values are provided and minValues is zero", async () => {
-    const values = await schema.list(" ", ["AC/DC", "Guns N' Roses", "L
+    const values = await schema.list(" ", ["AC/DC", "Guns N' Roses", "Led Zeppelin"], 0, 3)
+    expect
