@@ -71,4 +71,4 @@ describe('createList function edge cases', () => {
     const values = await schema.list(" ", ["AC/DC", "Guns N' Roses", "Led Zeppelin"], 0, 3)
     expect(values).toEqual([])
   })
-  it("should not return an empty array when no values are provided and 
+  it("should not return an empty array when no values are provided and minValues is non zero", async () =
