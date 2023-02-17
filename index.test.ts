@@ -76,4 +76,4 @@ describe('createList function edge cases', () => {
     expect(values.length).toBeGreaterThan(0)
   })
 
-  it("
+  it("should handle the case where 
