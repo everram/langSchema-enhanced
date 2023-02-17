@@ -76,4 +76,4 @@ describe('createList function edge cases', () => {
     expect(values.length).toBeGreaterThan(0)
   })
 
-  it("should handle the case where 
+  it("should handle the case where the prompt mentions more i
