@@ -76,4 +76,5 @@ describe('createList function edge cases', () => {
     expect(values.length).toBeGreaterThan(0)
   })
 
-  it("should handle the case where the prompt mentions more items than maxValues", async () =
+  it("should handle the case where the prompt mentions more items than maxValues", async () => {
+    const values = await sch
