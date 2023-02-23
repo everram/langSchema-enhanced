@@ -77,4 +77,4 @@ describe('createList function edge cases', () => {
   })
 
   it("should handle the case where the prompt mentions more items than maxValues", async () => {
-    const values = await schema.list("I enjoy listening to AC/DC, Guns N' Roses, Led Zepp
+    const values = await schema.list("I enjoy listening to AC/DC, Guns N' Roses, Led Zeppelin, and Pink Floyd", ["AC/DC
