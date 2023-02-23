@@ -77,4 +77,4 @@ describe('createList function edge cases', () => {
   })
 
   it("should handle the case where the prompt mentions more items than maxValues", async () => {
-    const values = await sch
+    const values = await schema.list("I enjoy liste
