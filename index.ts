@@ -1,1 +1,2 @@
-import {OpenAIApi, Configuration, CreateChatCompleti
+import {OpenAIApi, Configuration, CreateChatCompletionRequest} from 'openai'
+im
