@@ -1,2 +1,2 @@
 import {OpenAIApi, Configuration, CreateChatCompletionRequest} from 'openai'
-im
+import {z, type ZodError} fro
