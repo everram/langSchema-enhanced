@@ -2,4 +2,5 @@ import {OpenAIApi, Configuration, CreateChatCompletionRequest} from 'openai'
 import {z, type ZodError} from 'zod'
 import {zodToJsonSchema} from "zod-to-json-schema"
 
-interfa
+interface GenericPromptOptions {
+  gpt4
