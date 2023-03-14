@@ -6,4 +6,6 @@ interface GenericPromptOptions {
   gpt4?: boolean
 }
 
-type AtLeastOne<T>
+type AtLeastOne<T> = [T, ...T[]];
+
+async funct
