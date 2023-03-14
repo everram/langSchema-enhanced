@@ -8,4 +8,5 @@ interface GenericPromptOptions {
 
 type AtLeastOne<T> = [T, ...T[]];
 
-async funct
+async function backoff<T>(
+  retries: numb
