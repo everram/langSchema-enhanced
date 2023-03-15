@@ -9,4 +9,6 @@ interface GenericPromptOptions {
 type AtLeastOne<T> = [T, ...T[]];
 
 async function backoff<T>(
-  retries: numb
+  retries: number,
+  fn: () => Promise<T>,
+  dela
