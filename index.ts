@@ -16,4 +16,5 @@ async function backoff<T>(
   try {
     return await fn();
   } catch (error) {
-    if (retr
+    if (retries === 1) throw error;
+    awa
