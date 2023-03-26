@@ -11,4 +11,6 @@ type AtLeastOne<T> = [T, ...T[]];
 async function backoff<T>(
   retries: number,
   fn: () => Promise<T>,
-  dela
+  delay = 500
+): Promise<T> {
+  tr
