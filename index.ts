@@ -13,4 +13,6 @@ async function backoff<T>(
   fn: () => Promise<T>,
   delay = 500
 ): Promise<T> {
-  tr
+  try {
+    return await fn();
+  } ca
