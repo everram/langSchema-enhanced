@@ -17,4 +17,4 @@ async function backoff<T>(
     return await fn();
   } catch (error) {
     if (retries === 1) throw error;
-    await new Promise(
+    await new Promise(resolve => setTimeout(resolve, 
