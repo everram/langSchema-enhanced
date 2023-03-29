@@ -18,4 +18,4 @@ async function backoff<T>(
   } catch (error) {
     if (retries === 1) throw error;
     await new Promise(resolve => setTimeout(resolve, delay));
-    return backoff(r
+    return backoff(retries - 1, fn, delay
