@@ -22,4 +22,5 @@ async function backoff<T>(
   }
 }
 
-functio
+function buildLLM() {
+  const openai = ne
