@@ -23,4 +23,4 @@ async function backoff<T>(
 }
 
 function buildLLM() {
-  const openai = ne
+  const openai = new OpenAIApi(new Configurat
