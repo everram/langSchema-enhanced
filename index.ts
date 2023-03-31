@@ -23,4 +23,6 @@ async function backoff<T>(
 }
 
 function buildLLM() {
-  const openai = new OpenAIApi(new Configuration({apiKey: process.env.OPENAI_API_
+  const openai = new OpenAIApi(new Configuration({apiKey: process.env.OPENAI_API_KEY}))
+  return {
+    createChatC
