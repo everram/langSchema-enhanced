@@ -26,4 +26,4 @@ function buildLLM() {
   const openai = new OpenAIApi(new Configuration({apiKey: process.env.OPENAI_API_KEY}))
   return {
     createChatCompletion(request: CreateChatCompletionRequest) {
-  
+      return backoff(10, () => openai.cr
