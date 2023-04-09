@@ -31,4 +31,4 @@ function buildLLM() {
   }
 }
 
-function buildLLMOptions(p
+function buildLLMOptions(promptOptions?: GenericPromptOp
