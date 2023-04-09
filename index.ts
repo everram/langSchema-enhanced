@@ -31,4 +31,6 @@ function buildLLM() {
   }
 }
 
-function buildLLMOptions(promptOptions?: GenericPromptOp
+function buildLLMOptions(promptOptions?: GenericPromptOptions) {
+  return {
+    temperat
