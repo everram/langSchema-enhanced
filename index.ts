@@ -33,4 +33,5 @@ function buildLLM() {
 
 function buildLLMOptions(promptOptions?: GenericPromptOptions) {
   return {
-    temperat
+    temperature: 0,
+    model: promptOptions
