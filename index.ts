@@ -35,3 +35,8 @@ function buildLLMOptions(promptOptions?: GenericPromptOptions) {
   return {
     temperature: 0,
     model: promptOptions?.gpt4 ? "gpt-4" : "gpt-3.5-turbo"
+  }
+}
+
+/**
+ * This func
