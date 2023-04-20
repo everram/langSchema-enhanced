@@ -40,4 +40,4 @@ function buildLLMOptions(promptOptions?: GenericPromptOptions) {
 
 /**
  * This function parses the given input into a given Zod type using the OpenAI API. The
- * input type can be ANY Zod type, not j
+ * input type can be ANY Zod type, not just an object - a boolean, a number
