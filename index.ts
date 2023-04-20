@@ -39,4 +39,5 @@ function buildLLMOptions(promptOptions?: GenericPromptOptions) {
 }
 
 /**
- * This function parses the given input into a given Zod type usin
+ * This function parses the given input into a given Zod type using the OpenAI API. The
+ * in
