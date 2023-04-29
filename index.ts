@@ -45,4 +45,4 @@ function buildLLMOptions(promptOptions?: GenericPromptOptions) {
  *
  * @export
  * @param {string} prompt - The input to parse
- * @param zodType 
+ * @param zodType - The Zod type to parse the 
