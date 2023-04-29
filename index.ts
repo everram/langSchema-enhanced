@@ -44,4 +44,4 @@ function buildLLMOptions(promptOptions?: GenericPromptOptions) {
  * etc. are all valid inputs.
  *
  * @export
- * @par
+ * @param {string} prompt - The input
