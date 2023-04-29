@@ -44,4 +44,5 @@ function buildLLMOptions(promptOptions?: GenericPromptOptions) {
  * etc. are all valid inputs.
  *
  * @export
- * @param {string} prompt - The input
+ * @param {string} prompt - The input to parse
+ * @param zodType 
