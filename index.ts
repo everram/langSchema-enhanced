@@ -49,4 +49,4 @@ function buildLLMOptions(promptOptions?: GenericPromptOptions) {
  * @param {GenericPromptOptions} [promptOptions] - Optional settings for the prompt.
  * @returns {Promise<T>} A promise that resolves to the parsed value.
  *
- * @throw
+ * @throws {ZodError} If the parsed response do
