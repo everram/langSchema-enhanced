@@ -53,4 +53,4 @@ function buildLLMOptions(promptOptions?: GenericPromptOptions) {
  *
  * @async
  */
-export async function asZodT
+export async function asZodType<T>(prompt: string, zodType: z.
