@@ -55,4 +55,6 @@ function buildLLMOptions(promptOptions?: GenericPromptOptions) {
  */
 export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, promptOptions?: GenericPromptOptions): Promise<T> {
   if (!prompt) {
-    return zodType.
+    return zodType.parse("")
+  }
+  const openai = build
