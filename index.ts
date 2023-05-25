@@ -54,4 +54,5 @@ function buildLLMOptions(promptOptions?: GenericPromptOptions) {
  * @async
  */
 export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, promptOptions?: GenericPromptOptions): Promise<T> {
-  if 
+  if (!prompt) {
+    return zodType.
