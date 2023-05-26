@@ -57,4 +57,5 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
   if (!prompt) {
     return zodType.parse("")
   }
-  const openai = build
+  const openai = buildLLM()
+  const llmOptions = buildLLMOp
