@@ -61,4 +61,5 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
   const llmOptions = buildLLMOptions(promptOptions)
   let wrapperZod: any
   let shouldWrap = (zodType._def as any).typeName !== "ZodObject"
-  if (shou
+  if (shouldWrap) {
+    wrapperZod =
