@@ -63,3 +63,6 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
   let shouldWrap = (zodType._def as any).typeName !== "ZodObject"
   if (shouldWrap) {
     wrapperZod = z.object({value: zodType})
+  } else {
+    wrapperZod = zodType
+ 
