@@ -67,4 +67,6 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
     wrapperZod = zodType
   }
 
-  const jsonSchema = zodToJsonSchema(wrapperZod, "wrapper").d
+  const jsonSchema = zodToJsonSchema(wrapperZod, "wrapper").definitions?.wrapper
+
+  const result
