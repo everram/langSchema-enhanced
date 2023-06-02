@@ -65,4 +65,6 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
     wrapperZod = z.object({value: zodType})
   } else {
     wrapperZod = zodType
- 
+  }
+
+  const jsonSchema = zodToJ
