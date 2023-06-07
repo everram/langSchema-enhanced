@@ -69,4 +69,5 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
 
   const jsonSchema = zodToJsonSchema(wrapperZod, "wrapper").definitions?.wrapper
 
-  const result
+  const result = await openai.createChatCompletion({
+ 
