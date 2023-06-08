@@ -71,4 +71,6 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
 
   const result = await openai.createChatCompletion({
     ...llmOptions,
-    messag
+    messages: [
+      {
+        ro
