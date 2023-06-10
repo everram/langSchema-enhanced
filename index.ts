@@ -73,4 +73,5 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
     ...llmOptions,
     messages: [
       {
-        ro
+        role: "system",
+        content: "
