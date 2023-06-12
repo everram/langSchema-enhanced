@@ -74,4 +74,4 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
     messages: [
       {
         role: "system",
-        content: "
+        content: "Follow the user's instructions 
