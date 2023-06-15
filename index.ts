@@ -74,4 +74,7 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
     messages: [
       {
         role: "system",
-        content: "Follow the user's instructions exactly, and respond with ONLY what the user requests in valid JSON format. No extraneous informat
+        content: "Follow the user's instructions exactly, and respond with ONLY what the user requests in valid JSON format. No extraneous information."
+      },
+      {
+        
