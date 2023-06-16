@@ -81,4 +81,4 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
         content: prompt
       }
     ],
-    funct
+    function_call: {name: "answer"},
