@@ -78,4 +78,7 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
       },
       {
         role: "user",
-        content
+        content: prompt
+      }
+    ],
+    funct
