@@ -86,4 +86,6 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
       {
         name: "answer",
         description: "Answer the user's question",
-        
+        parameters: jsonSchema
+      }
+  
