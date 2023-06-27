@@ -90,4 +90,4 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
       }
     ]
   })
-  const evaluated
+  const evaluated = wrapperZod.parse(JSON.
