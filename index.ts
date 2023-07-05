@@ -91,4 +91,4 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
     ]
   })
   const evaluated = wrapperZod.parse(JSON.parse(result.data.choices[0].message!.function_call!.arguments!))
-  re
+  return shouldWrap ? (evaluated.value as T)
