@@ -95,4 +95,4 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
 }
 
 /**
- * Asyn
+ * Asynchronously handles a binary p
