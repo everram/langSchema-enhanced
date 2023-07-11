@@ -102,4 +102,4 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
  * user's answer.
  *
  * @export
- * @param {string} prompt -
+ * @param {string} prompt - The prompt message to displ
