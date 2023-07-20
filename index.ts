@@ -103,4 +103,5 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
  *
  * @export
  * @param {string} prompt - The prompt message to display to the user.
- * @param {GenericPromptOptions} [promptOptions] - Optional settings for
+ * @param {GenericPromptOptions} [promptOptions] - Optional settings for the prompt.
+ * @returns {Pro
