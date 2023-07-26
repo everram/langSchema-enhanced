@@ -110,4 +110,4 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
  *
  * @async
  */
-exp
+export async function bool(prompt
