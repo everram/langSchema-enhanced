@@ -106,4 +106,8 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
  * @param {GenericPromptOptions} [promptOptions] - Optional settings for the prompt.
  * @returns {Promise<boolean>} A promise that resolves to a boolean indicating the user's response.
  *
- * @throws {ZodError} If the parsed response does not match the expected
+ * @throws {ZodError} If the parsed response does not match the expected structure.
+ *
+ * @async
+ */
+exp
