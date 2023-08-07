@@ -111,4 +111,7 @@ export async function asZodType<T>(prompt: string, zodType: z.ZodType<T>, prompt
  * @async
  */
 export async function bool(prompt: string, promptOptions?: GenericPromptOptions): Promise<boolean> {
-  if (!pro
+  if (!prompt) {
+    return false
+  }
+  const o
