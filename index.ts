@@ -114,4 +114,5 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
   if (!prompt) {
     return false
   }
-  const o
+  const openai = buildLLM()
+  const llmOpt
