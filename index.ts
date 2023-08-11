@@ -120,4 +120,5 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
     ...llmOptions,
     messages: [
       {
-        r
+        role: "system",
+       
