@@ -116,4 +116,6 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
   }
   const openai = buildLLM()
   const llmOptions = buildLLMOptions(promptOptions)
-  const result = await openai.createChatCo
+  const result = await openai.createChatCompletion({
+    ...llmOptions,
+    mess
