@@ -121,4 +121,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
     messages: [
       {
         role: "system",
-       
+        content: 'Answer the following 
