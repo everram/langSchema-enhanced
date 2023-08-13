@@ -122,3 +122,7 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
       {
         role: "system",
         content: 'Answer the following question with a true or false.'
+      },
+      {
+        role: "user",
+  
