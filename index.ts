@@ -125,4 +125,7 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
       },
       {
         role: "user",
+        content: prompt
+      }
+    ],
   
