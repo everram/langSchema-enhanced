@@ -128,4 +128,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
         content: prompt
       }
     ],
-  
+    function_call: {name: "answer
