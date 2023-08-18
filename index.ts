@@ -131,4 +131,5 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
     function_call: {name: "answer"},
     functions: [
       {
-    
+        name: "answer",
+       
