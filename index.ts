@@ -132,4 +132,6 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
     functions: [
       {
         name: "answer",
-        description: "Answer the user's questi
+        description: "Answer the user's question",
+        parameters: {
+         
