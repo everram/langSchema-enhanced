@@ -136,4 +136,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
         parameters: {
           type: "object",
           required: ["value"],
-         
+          description: "An object containi
