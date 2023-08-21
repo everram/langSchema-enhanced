@@ -134,4 +134,5 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
         name: "answer",
         description: "Answer the user's question",
         parameters: {
-         
+          type: "object",
+          requir
