@@ -138,4 +138,5 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
           required: ["value"],
           description: "An object containing a boolean value.",
           properties: {
-         
+            value: {
+        
