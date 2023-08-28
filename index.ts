@@ -143,4 +143,8 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
               description: "The boolean value to return.",
             },
           },
-    
+        },
+      }
+    ]
+  })
+  const z
