@@ -141,4 +141,6 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
             value: {
               type: "boolean",
               description: "The boolean value to return.",
-        
+            },
+          },
+    
