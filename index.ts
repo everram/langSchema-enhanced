@@ -147,4 +147,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
       }
     ]
   })
-  const z
+  const zBooleanAnswer = z.object({va
