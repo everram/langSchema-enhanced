@@ -150,4 +150,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
   const zBooleanAnswer = z.object({value: z.boolean()})
 
   const answer = JSON.parse(result.data.choices[0].message?.function_call?.arguments as string)
-  return zBo
+  return zBooleanAnswer.parse(answer).
