@@ -154,4 +154,6 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
 }
 
 /**
- * Asynchronously handles a categorical prompt and returns the classified categ
+ * Asynchronously handles a categorical prompt and returns the classified category
+ *
+ * This function cr
