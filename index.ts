@@ -154,4 +154,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
 }
 
 /**
- * Asynchronou
+ * Asynchronously handles a categorical prompt a
