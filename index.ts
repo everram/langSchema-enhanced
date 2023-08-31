@@ -156,4 +156,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
 /**
  * Asynchronously handles a categorical prompt and returns the classified category
  *
- * This function cr
+ * This function creates a Large Language Model (LL
