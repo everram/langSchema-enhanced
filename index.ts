@@ -158,4 +158,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
  *
  * This function creates a Large Language Model (LLM) from the provided options
  * and prompts the user with a message. It then returns the selected category,
- * 
+ * which must be one of the provi
