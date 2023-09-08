@@ -161,4 +161,5 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
  * which must be one of the provided allowed values.
  *
  * @export
- * @param {string} prompt - The user's question to
+ * @param {string} prompt - The user's question to classify
+ * @param {AtLeast
