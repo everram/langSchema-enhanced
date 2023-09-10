@@ -164,4 +164,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
  * @param {string} prompt - The user's question to classify
  * @param {AtLeastOne<string>} allowedValues - Array of allowable categorical values.
  * @param {GenericPromptOptions} [promptOptions] - Optional settings for the prompt.
- * @returns {Promise<st
+ * @returns {Promise<string>} A promise that res
