@@ -163,4 +163,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
  * @export
  * @param {string} prompt - The user's question to classify
  * @param {AtLeastOne<string>} allowedValues - Array of allowable categorical values.
- * @param {GenericPromp
+ * @param {GenericPromptOptions} [promptOptions] 
