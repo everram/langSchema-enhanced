@@ -166,4 +166,5 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
  * @param {GenericPromptOptions} [promptOptions] - Optional settings for the prompt.
  * @returns {Promise<string>} A promise that resolves to a string indicating the user's selected category.
  *
- * @throws {Error} If no prompt is pr
+ * @throws {Error} If no prompt is provided.
+ * @throws {ZodErr
