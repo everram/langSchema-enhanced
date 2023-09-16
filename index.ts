@@ -167,4 +167,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
  * @returns {Promise<string>} A promise that resolves to a string indicating the user's selected category.
  *
  * @throws {Error} If no prompt is provided.
- * @throws {ZodErr
+ * @throws {ZodError} If the parsed response does n
