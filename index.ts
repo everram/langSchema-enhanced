@@ -171,4 +171,4 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
  *
  * @async
  */
-export 
+export async function categorize(prom
