@@ -171,4 +171,5 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
  *
  * @async
  */
-export async function categorize(prompt: string, allowedValues: AtLeastOne<string>, promptOptions?: GenericPromptOptions): Pro
+export async function categorize(prompt: string, allowedValues: AtLeastOne<string>, promptOptions?: GenericPromptOptions): Promise<string> {
+  if (!prompt) {
