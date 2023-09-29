@@ -174,3 +174,6 @@ export async function bool(prompt: string, promptOptions?: GenericPromptOptions)
 export async function categorize(prompt: string, allowedValues: AtLeastOne<string>, promptOptions?: GenericPromptOptions): Promise<string> {
   if (!prompt) {
     throw new Error("Prompt is required")
+  }
+  const openai = buildLLM()
+  
