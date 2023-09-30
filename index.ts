@@ -176,4 +176,4 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
     throw new Error("Prompt is required")
   }
   const openai = buildLLM()
-  
+  const llmOptions = buildLLMOpti
