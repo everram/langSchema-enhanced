@@ -177,4 +177,6 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
   }
   const openai = buildLLM()
   const llmOptions = buildLLMOptions(promptOptions)
-  const result = await openai.createChatComplet
+  const result = await openai.createChatCompletion({
+    ...llmOptions,
+    mes
