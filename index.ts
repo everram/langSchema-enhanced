@@ -181,4 +181,5 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
     ...llmOptions,
     messages: [
       {
-        role:
+        role: "system",
+        content: `Ans
