@@ -182,4 +182,4 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
     messages: [
       {
         role: "system",
-        content: `Answer the following question with one of the following allowed values: ${allowedValues.join(", ")}. You MUST use the exact sp
+        content: `Answer the following question with one of the following allowed values: ${allowedValues.join(", ")}. You MUST use the exact spelling and capitalization of t
