@@ -182,4 +182,4 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
     messages: [
       {
         role: "system",
-        content: `Answer the following questio
+        content: `Answer the following question with one of the following allow
