@@ -185,4 +185,5 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
         content: `Answer the following question with one of the following allowed values: ${allowedValues.join(", ")}. You MUST use the exact spelling and capitalization of the values.`
       },
       {
-    
+        role: "user",
+        content: prompt
