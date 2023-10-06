@@ -187,3 +187,6 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
       {
         role: "user",
         content: prompt
+      }
+    ],
+    functi
