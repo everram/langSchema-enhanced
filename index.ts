@@ -192,4 +192,5 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
     function_call: {name: "answer"},
     functions: [
       {
-    
+        name: "answer",
+        de
