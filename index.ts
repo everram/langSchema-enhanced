@@ -189,4 +189,7 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
         content: prompt
       }
     ],
-    function_call: {name: "answer"}
+    function_call: {name: "answer"},
+    functions: [
+      {
+    
