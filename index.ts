@@ -193,4 +193,5 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
     functions: [
       {
         name: "answer",
-        description: "Answer the user
+        description: "Answer the user's question",
+        paramet
