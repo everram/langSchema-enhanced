@@ -195,4 +195,5 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
         name: "answer",
         description: "Answer the user's question",
         parameters: {
-          type: "obje
+          type: "object",
+          required: ["va
