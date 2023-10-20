@@ -197,4 +197,6 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
         parameters: {
           type: "object",
           required: ["value"],
-          propert
+          properties: {
+            value: {
+    
