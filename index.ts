@@ -200,4 +200,5 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
           properties: {
             value: {
               type: "string",
-              en
+              enum: allowedValues,
+        
