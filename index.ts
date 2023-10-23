@@ -201,4 +201,6 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
             value: {
               type: "string",
               enum: allowedValues,
-              description: "The value to use, MUST be one of the allowe
+              description: "The value to use, MUST be one of the allowed values",
+            },
+     
