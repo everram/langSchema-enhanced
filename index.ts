@@ -206,3 +206,6 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
           },
         },
       }
+    ]
+  })
+  const returne
