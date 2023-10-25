@@ -208,4 +208,4 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
       }
     ]
   })
-  const returne
+  const returnedValue = JSON.parse(result.data.choices[
