@@ -208,4 +208,5 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
       }
     ]
   })
-  const returnedValue = JSON.parse(result.data.choices[0].message?.function_call?.arguments as str
+  const returnedValue = JSON.parse(result.data.choices[0].message?.function_call?.arguments as string)
+  const zStringAnswer = z.o
