@@ -214,4 +214,4 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
 }
 
 /**
- * Async
+ * Asynchronously handles a list prompt and
