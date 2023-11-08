@@ -216,4 +216,5 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
 /**
  * Asynchronously handles a list prompt and returns an array of selected values.
  *
- * This function creates a Large Language Model (LLM) fr
+ * This function creates a Large Language Model (LLM) from the provided options
+ *
