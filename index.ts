@@ -218,4 +218,4 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
  *
  * This function creates a Large Language Model (LLM) from the provided options
  * and prompts the user with a message. The user is expected to select a minimum
- * and maximum number of values from the allowed lis
+ * and maximum number of values from the allowed list, and the function returns an arra
