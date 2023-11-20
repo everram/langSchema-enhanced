@@ -222,4 +222,5 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
  * of these values.
  *
  * @export
- * @param {string} prompt - The prompt message
+ * @param {string} prompt - The prompt message to display to the user.
+ * @param {nul
