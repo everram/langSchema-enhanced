@@ -225,4 +225,4 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
  * @param {string} prompt - The prompt message to display to the user.
  * @param {null | AtLeastOne<string>} allowedValues - Array of allowable values. Null indicates that any string is allowed.
  * @param {number} [minValues=1] - The minimum number of values the user must select.
- * @param {number} [maxValues=5] - The maximum number
+ * @param {number} [maxValues=5] - The maximum number of values the user can select.
