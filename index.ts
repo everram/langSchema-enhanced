@@ -229,4 +229,4 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
  * @param {GenericPromptOptions} [promptOptions] - Optional settings for the prompt.
  * @returns {Promise<string[]>} A promise that resolves to an array of strings indicating the user's selected values.
  *
- * @throws {Erro
+ * @throws {Error} If no prompt is provided, if minValues
