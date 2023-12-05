@@ -234,4 +234,4 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
  *
  * @async
  */
-export asy
+export async function list(promp
