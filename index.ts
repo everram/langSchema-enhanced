@@ -230,4 +230,8 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
  * @returns {Promise<string[]>} A promise that resolves to an array of strings indicating the user's selected values.
  *
  * @throws {Error} If no prompt is provided, if minValues is not less than maxValues, or if minValues is not greater than zero.
- * @throws {ZodError} If the parsed response does not match the expected structure or is not one of the allowed values
+ * @throws {ZodError} If the parsed response does not match the expected structure or is not one of the allowed values.
+ *
+ * @async
+ */
+export asy
