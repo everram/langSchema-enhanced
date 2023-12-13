@@ -235,4 +235,5 @@ export async function categorize(prompt: string, allowedValues: AtLeastOne<strin
  * @async
  */
 export async function list(prompt: string, allowedValues: null | AtLeastOne<string>, minValues = 1, maxValues = 5, promptOptions?: GenericPromptOptions): Promise<string[]> {
-  if (minValu
+  if (minValues >= maxValues) {
+    
