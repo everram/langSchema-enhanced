@@ -239,4 +239,6 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
     throw new Error("minValues must be less than maxValues")
   }
   if (minValues < 0) {
-    throw new Error("minValues must be greater tha
+    throw new Error("minValues must be greater than zero")
+  }
+  if (!promp
