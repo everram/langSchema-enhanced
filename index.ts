@@ -245,4 +245,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
     return []
   }
   const llmOptions = buildLLMOptions(promptOptions)
-  const zeroMessage = minValues === 0 ? "You may also answer with no values
+  const zeroMessage = minValues === 0 ? "You may also answer with no values." : ""
+  const multipleMessage = mi
