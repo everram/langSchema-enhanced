@@ -244,4 +244,4 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
   if (!prompt) {
     return []
   }
-  const llmOption
+  const llmOptions = buildLLMOptions(promptOption
