@@ -244,4 +244,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
   if (!prompt) {
     return []
   }
-  const llmOptions = buildLLMOptions(promptOption
+  const llmOptions = buildLLMOptions(promptOptions)
+  const zeroMessage = minValues ===
