@@ -241,4 +241,7 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
   if (minValues < 0) {
     throw new Error("minValues must be greater than zero")
   }
-  if (!promp
+  if (!prompt) {
+    return []
+  }
+  const llmOption
