@@ -252,4 +252,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
   if (allowedValues) {
     itemsType.enum = allowedValues
   }
-  const
+  const openai = buildLLM()
+  const res
