@@ -253,4 +253,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
     itemsType.enum = allowedValues
   }
   const openai = buildLLM()
-  const res
+  const result = await openai.createChatCompletion({
+    .
