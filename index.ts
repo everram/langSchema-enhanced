@@ -247,4 +247,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
   const llmOptions = buildLLMOptions(promptOptions)
   const zeroMessage = minValues === 0 ? "You may also answer with no values." : ""
   const multipleMessage = minValues > 1 ? "You may also answer with multiple values." : ""
-  const allowedValuesMessage = allowedValues ? ` of the following allowed values: ${allowedValues.join(", ")}. You MUST use the exact spelling and capitalization of the va
+  const allowedValuesMessage = allowedValues ? ` of the following allowed values: ${allowedValues.join(", ")}. You MUST use the exact spelling and capitalization of the values` : ""
+  const itemsType: any
