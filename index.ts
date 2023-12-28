@@ -255,4 +255,6 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
   const openai = buildLLM()
   const result = await openai.createChatCompletion({
     ...llmOptions,
-    messages: 
+    messages: [
+      {
+        role: "s
