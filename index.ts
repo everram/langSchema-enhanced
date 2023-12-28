@@ -249,4 +249,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
   const multipleMessage = minValues > 1 ? "You may also answer with multiple values." : ""
   const allowedValuesMessage = allowedValues ? ` of the following allowed values: ${allowedValues.join(", ")}. You MUST use the exact spelling and capitalization of the values` : ""
   const itemsType: any = {type: "string"}
-  if (all
+  if (allowedValues) {
+    itemsType.
