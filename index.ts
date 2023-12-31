@@ -257,4 +257,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
     ...llmOptions,
     messages: [
       {
-        role: "s
+        role: "system",
+        content: `Answer the f
