@@ -261,4 +261,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
         content: `Answer the following question with AT LEAST ${minValues} and AT MOST ${maxValues}${allowedValuesMessage}. ${multipleMessage}${zeroMessage}`
       },
       {
-        role
+        role: "user",
+        content: prom
