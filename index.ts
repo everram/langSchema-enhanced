@@ -262,4 +262,7 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
       },
       {
         role: "user",
-        content: prom
+        content: prompt
+      }
+    ],
+    functio
