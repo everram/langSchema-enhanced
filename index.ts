@@ -265,4 +265,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
         content: prompt
       }
     ],
-    functio
+    function_call: {name: "answer"},
+ 
