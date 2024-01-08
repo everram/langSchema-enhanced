@@ -266,4 +266,6 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
       }
     ],
     function_call: {name: "answer"},
+    functions: [
+      {
  
