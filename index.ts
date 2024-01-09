@@ -271,3 +271,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
         name: "answer",
         description: "Answer the user's question",
         parameters: {
+          type: "object",
+          requir
