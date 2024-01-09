@@ -269,4 +269,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
     functions: [
       {
         name: "answer",
-        description: "Answer the user's 
+        description: "Answer the user's question",
+        parameters: {
