@@ -276,4 +276,4 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
           properties: {
             value: {
               type: "array",
-     
+              description: "The value
