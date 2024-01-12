@@ -277,4 +277,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
             value: {
               type: "array",
               description: "The values to use",
-              minI
+              minItems: minValues,
+              maxItems:
