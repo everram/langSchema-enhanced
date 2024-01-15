@@ -286,4 +286,4 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
       }
     ]
   })
-  const returnedValue = JSON.parse(result.data.choices[0].
+  const returnedValue = JSON.parse(result.data.choices[0].message?.function_call?.argument
