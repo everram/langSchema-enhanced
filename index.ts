@@ -281,4 +281,7 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
               maxItems: maxValues,
               items: itemsType
             },
-         
+          },
+        },
+      }
+    
