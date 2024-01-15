@@ -284,4 +284,6 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
           },
         },
       }
-    
+    ]
+  })
+  const returnedValue = JSON
