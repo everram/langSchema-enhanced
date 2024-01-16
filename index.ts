@@ -288,4 +288,4 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
   })
   const returnedValue = JSON.parse(result.data.choices[0].message?.function_call?.arguments as string)
   const zStringArrayAnswer = z.object({
-    value: z.array(allowedValues ?
+    value: z.array(allowedValues ? z.enum(allowedValues) : z.str
