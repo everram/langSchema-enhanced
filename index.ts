@@ -290,4 +290,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
   const zStringArrayAnswer = z.object({
     value: z.array(allowedValues ? z.enum(allowedValues) : z.string())
   })
-  const parsedValue = zStringArrayAnswer.parse(r
+  const parsedValue = zStringArrayAnswer.parse(returnedValue).value
+  if (p
