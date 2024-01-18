@@ -291,4 +291,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
     value: z.array(allowedValues ? z.enum(allowedValues) : z.string())
   })
   const parsedValue = zStringArrayAnswer.parse(returnedValue).value
-  if (parsedValue.length < minValu
+  if (parsedValue.length < minValues) {
+    throw new Error(`
