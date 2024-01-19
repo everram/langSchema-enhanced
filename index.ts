@@ -292,4 +292,5 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
   })
   const parsedValue = zStringArrayAnswer.parse(returnedValue).value
   if (parsedValue.length < minValues) {
-    throw new Error(`You must provide at least ${minVa
+    throw new Error(`You must provide at least ${minValues} values`)
+  } else if (pars
