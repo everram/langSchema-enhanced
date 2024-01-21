@@ -300,4 +300,4 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
 }
 
 /**
- * Asynchronously handles a string prompt and return
+ * Asynchronously handles a string prompt and returns any string response. No o
