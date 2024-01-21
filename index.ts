@@ -296,4 +296,8 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
   } else if (parsedValue.length > maxValues) {
     parsedValue.splice(maxValues)
   }
-  re
+  return parsedValue
+}
+
+/**
+ 
