@@ -303,4 +303,4 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
  * Asynchronously handles a string prompt and returns any string response. No ouptut validation is performed.
  *
  * @export
- * @param {st
+ * @param {string} prompt - The prompt message to 
