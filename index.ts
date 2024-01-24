@@ -304,4 +304,4 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
  *
  * @export
  * @param {string} prompt - The prompt message to display to the user.
- * @returns {Promise<string>} A promi
+ * @returns {Promise<string>} A promise that resolves to a str
