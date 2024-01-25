@@ -308,4 +308,6 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
  *
  * @throws {Error} If the LLM fails to create or call.
  *
- * @as
+ * @async
+ */
+export async function st
