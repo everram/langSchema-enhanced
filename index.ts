@@ -310,4 +310,4 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
  *
  * @async
  */
-export async function st
+export async function string(prompt: string): Pr
