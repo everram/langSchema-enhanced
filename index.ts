@@ -310,4 +310,6 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
  *
  * @async
  */
-export async function string(prompt: string): Pr
+export async function string(prompt: string): Promise<string> {
+  if (!prompt) {
+  
