@@ -314,4 +314,5 @@ export async function string(prompt: string): Promise<string> {
   if (!prompt) {
     return ""
   }
-  const ope
+  const openai = buildLLM()
+  const llmOptions
