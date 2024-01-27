@@ -312,4 +312,6 @@ export async function list(prompt: string, allowedValues: null | AtLeastOne<stri
  */
 export async function string(prompt: string): Promise<string> {
   if (!prompt) {
-  
+    return ""
+  }
+  const ope
