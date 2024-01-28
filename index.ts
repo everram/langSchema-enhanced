@@ -315,4 +315,5 @@ export async function string(prompt: string): Promise<string> {
     return ""
   }
   const openai = buildLLM()
-  const llmOptions
+  const llmOptions = buildLLMOptions()
+ 
