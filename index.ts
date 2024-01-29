@@ -316,4 +316,5 @@ export async function string(prompt: string): Promise<string> {
   }
   const openai = buildLLM()
   const llmOptions = buildLLMOptions()
-  const result = await openai.createCh
+  const result = await openai.createChatCompletion({
+    ...llmOptions
