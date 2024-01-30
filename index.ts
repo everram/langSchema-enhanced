@@ -320,4 +320,5 @@ export async function string(prompt: string): Promise<string> {
     ...llmOptions,
     messages: [
       {
-        rol
+        role: "system",
+        content: "You 
