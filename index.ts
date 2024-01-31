@@ -321,4 +321,4 @@ export async function string(prompt: string): Promise<string> {
     messages: [
       {
         role: "system",
-        content: "You 
+        content: "You will follow the user's instructi
