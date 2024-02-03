@@ -325,4 +325,6 @@ export async function string(prompt: string): Promise<string> {
       },
       {
         role: "user",
-      
+        content: prompt
+      }
+    ],
