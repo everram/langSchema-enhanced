@@ -324,4 +324,5 @@ export async function string(prompt: string): Promise<string> {
         content: "You will follow the user's instructions exactly. You will respond with ONLY what the user requests, and NO extraneous information like 'Sure, here you go:', or 'That's a great question!', etc."
       },
       {
- 
+        role: "user",
+      
