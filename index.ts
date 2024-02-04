@@ -328,3 +328,5 @@ export async function string(prompt: string): Promise<string> {
         content: prompt
       }
     ],
+  })
+  return result.data.choic
