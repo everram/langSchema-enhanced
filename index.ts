@@ -329,4 +329,5 @@ export async function string(prompt: string): Promise<string> {
       }
     ],
   })
-  return result.data.choic
+  return result.data.choices[0].message!.content!
+}
