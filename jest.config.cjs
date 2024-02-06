@@ -1,1 +1,3 @@
-/** @type {import('ts-jest').JestConfigW
+/** @type {import('ts-jest').JestConfigWithTsJest} */
+module.exports = {
+  prese
