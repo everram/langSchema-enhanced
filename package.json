@@ -6,4 +6,5 @@
   "description": "one-line LLM output parsers for JS/TS",
   "scripts": {
     "test": "jest",
-    
+    "clean": "rm -rf dist",
+ 
