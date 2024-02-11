@@ -8,3 +8,5 @@
     "test": "jest",
     "clean": "rm -rf dist",
     "prebuild": "npm run clean",
+    "build": "tsc",
+    "pos
