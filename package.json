@@ -9,4 +9,5 @@
     "clean": "rm -rf dist",
     "prebuild": "npm run clean",
     "build": "tsc",
-    "pos
+    "postbuild": "rm -rf dist/*.test.*",
+    "pr
