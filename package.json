@@ -12,4 +12,7 @@
     "postbuild": "rm -rf dist/*.test.*",
     "prepublishOnly": "npm run build"
   },
-  "keywords":
+  "keywords": [
+    "ai",
+    "llm",
+    "out
