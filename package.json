@@ -10,4 +10,6 @@
     "prebuild": "npm run clean",
     "build": "tsc",
     "postbuild": "rm -rf dist/*.test.*",
-    "prepublishOnly": "npm run bu
+    "prepublishOnly": "npm run build"
+  },
+  "keywords":
