@@ -20,4 +20,5 @@
   "author": "Soham Govande",
   "license": "ISC",
   "dependencies": {
-    "openai"
+    "openai": "^3.3.0",
+    "zod": "^3.21.4",
