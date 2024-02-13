@@ -18,4 +18,6 @@
     "output-parser"
   ],
   "author": "Soham Govande",
-  "license": "
+  "license": "ISC",
+  "dependencies": {
+    "openai"
