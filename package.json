@@ -26,4 +26,5 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.3",
-    "axios
+    "axios": "^1.4.0",
+    "dotenv": "^1
