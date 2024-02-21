@@ -433,3 +433,26 @@ packages:
       jest-resolve: 29.6.1
       jest-resolve-dependencies: 29.6.1
       jest-runner: 29.6.1
+      jest-runtime: 29.6.1
+      jest-snapshot: 29.6.1
+      jest-util: 29.6.1
+      jest-validate: 29.6.1
+      jest-watcher: 29.6.1
+      micromatch: 4.0.5
+      pretty-format: 29.6.1
+      slash: 3.0.0
+      strip-ansi: 6.0.1
+    transitivePeerDependencies:
+      - supports-color
+      - ts-node
+    dev: true
+
+  /@jest/environment@29.6.1:
+    resolution: {integrity: sha512-RMMXx4ws+Gbvw3DfLSuo2cfQlK7IwGbpuEWXCqyYDcqYTI+9Ju3a5hDnXaxjNsa6uKh9PQF2v+qg+RLe63tz5A==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      '@jest/fake-timers': 29.6.1
+      '@jest/types': 29.6.1
+      '@types/node': 18.16.19
+      jest-mock: 29.6.1
+    dev: true
