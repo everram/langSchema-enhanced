@@ -553,3 +553,24 @@ packages:
 
   /@jest/test-result@29.6.1:
     resolution: {integrity: sha512-Ynr13ZRcpX6INak0TPUukU8GWRfm/vAytE3JbJNGAvINySWYdfE7dGZMbk36oVuK4CigpbhMn8eg1dixZ7ZJOw==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      '@jest/console': 29.6.1
+      '@jest/types': 29.6.1
+      '@types/istanbul-lib-coverage': 2.0.4
+      collect-v8-coverage: 1.0.2
+    dev: true
+
+  /@jest/test-sequencer@29.6.1:
+    resolution: {integrity: sha512-oBkC36PCDf/wb6dWeQIhaviU0l5u6VCsXa119yqdUosYAt7/FbQU2M2UoziO3igj/HBDEgp57ONQ3fm0v9uyyg==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      '@jest/test-result': 29.6.1
+      graceful-fs: 4.2.11
+      jest-haste-map: 29.6.1
+      slash: 3.0.0
+    dev: true
+
+  /@jest/transform@29.6.1:
+    resolution: {integrity: sha512-URnTneIU3ZjRSaf906cvf6Hpox3hIeJXRnz3VDSw5/X93gR8ycdfSIEy19FlVx8NFmpN7fe3Gb1xF+NjXaQLWg==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
