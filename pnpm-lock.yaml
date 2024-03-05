@@ -1393,3 +1393,27 @@ packages:
       '@jest/expect': 29.6.1
       '@jest/test-result': 29.6.1
       '@jest/types': 29.6.1
+      '@types/node': 18.16.19
+      chalk: 4.1.2
+      co: 4.6.0
+      dedent: 0.7.0
+      is-generator-fn: 2.1.0
+      jest-each: 29.6.1
+      jest-matcher-utils: 29.6.1
+      jest-message-util: 29.6.1
+      jest-runtime: 29.6.1
+      jest-snapshot: 29.6.1
+      jest-util: 29.6.1
+      p-limit: 3.1.0
+      pretty-format: 29.6.1
+      pure-rand: 6.0.2
+      slash: 3.0.0
+      stack-utils: 2.0.6
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /jest-cli@29.6.1:
+    resolution: {integrity: sha512-607dSgTA4ODIN6go9w6xY3EYkyPFGicx51a69H7yfvt7lN53xNswEVLovq+E77VsTRi5fWprLH0yl4DJgE8Ing==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    hasBin: true
