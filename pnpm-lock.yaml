@@ -1417,3 +1417,23 @@ packages:
     resolution: {integrity: sha512-607dSgTA4ODIN6go9w6xY3EYkyPFGicx51a69H7yfvt7lN53xNswEVLovq+E77VsTRi5fWprLH0yl4DJgE8Ing==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
+    peerDependencies:
+      node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
+    peerDependenciesMeta:
+      node-notifier:
+        optional: true
+    dependencies:
+      '@jest/core': 29.6.1
+      '@jest/test-result': 29.6.1
+      '@jest/types': 29.6.1
+      chalk: 4.1.2
+      exit: 0.1.2
+      graceful-fs: 4.2.11
+      import-local: 3.1.0
+      jest-config: 29.6.1(@types/node@18.16.19)
+      jest-util: 29.6.1
+      jest-validate: 29.6.1
+      prompts: 2.4.2
+      yargs: 17.7.2
+    transitivePeerDependencies:
+      - '@types/node'
