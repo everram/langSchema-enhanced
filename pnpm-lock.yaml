@@ -1486,3 +1486,44 @@ packages:
     dependencies:
       chalk: 4.1.2
       diff-sequences: 29.4.3
+      jest-get-type: 29.4.3
+      pretty-format: 29.6.1
+    dev: true
+
+  /jest-docblock@29.4.3:
+    resolution: {integrity: sha512-fzdTftThczeSD9nZ3fzA/4KkHtnmllawWrXO69vtI+L9WjEIuXWs4AmyME7lN5hU7dB0sHhuPfcKofRsUb/2Fg==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      detect-newline: 3.1.0
+    dev: true
+
+  /jest-each@29.6.1:
+    resolution: {integrity: sha512-n5eoj5eiTHpKQCAVcNTT7DRqeUmJ01hsAL0Q1SMiBHcBcvTKDELixQOGMCpqhbIuTcfC4kMfSnpmDqRgRJcLNQ==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      '@jest/types': 29.6.1
+      chalk: 4.1.2
+      jest-get-type: 29.4.3
+      jest-util: 29.6.1
+      pretty-format: 29.6.1
+    dev: true
+
+  /jest-environment-node@29.6.1:
+    resolution: {integrity: sha512-ZNIfAiE+foBog24W+2caIldl4Irh8Lx1PUhg/GZ0odM1d/h2qORAsejiFc7zb+SEmYPn1yDZzEDSU5PmDkmVLQ==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      '@jest/environment': 29.6.1
+      '@jest/fake-timers': 29.6.1
+      '@jest/types': 29.6.1
+      '@types/node': 18.16.19
+      jest-mock: 29.6.1
+      jest-util: 29.6.1
+    dev: true
+
+  /jest-get-type@29.4.3:
+    resolution: {integrity: sha512-J5Xez4nRRMjk8emnTpWrlkyb9pfRQQanDrvWHhsR1+VUfbwxi30eVcZFlcdGInRibU4G5LwHXpI7IRHU0CY+gg==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dev: true
+
+  /jest-haste-map@29.6.1:
+    resolution: {integrity: sha512-0m7f9PZXxOCk1gRACiVgX85knUKPKLPg4oRCjLoqIm9brTHXaorMA0JpmtmVkQiT8nmXyIVoZd/nnH1cfC33ig==}
