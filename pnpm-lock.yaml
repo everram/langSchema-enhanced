@@ -1527,3 +1527,36 @@ packages:
 
   /jest-haste-map@29.6.1:
     resolution: {integrity: sha512-0m7f9PZXxOCk1gRACiVgX85knUKPKLPg4oRCjLoqIm9brTHXaorMA0JpmtmVkQiT8nmXyIVoZd/nnH1cfC33ig==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      '@jest/types': 29.6.1
+      '@types/graceful-fs': 4.1.6
+      '@types/node': 18.16.19
+      anymatch: 3.1.3
+      fb-watchman: 2.0.2
+      graceful-fs: 4.2.11
+      jest-regex-util: 29.4.3
+      jest-util: 29.6.1
+      jest-worker: 29.6.1
+      micromatch: 4.0.5
+      walker: 1.0.8
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /jest-leak-detector@29.6.1:
+    resolution: {integrity: sha512-OrxMNyZirpOEwkF3UHnIkAiZbtkBWiye+hhBweCHkVbCgyEy71Mwbb5zgeTNYWJBi1qgDVfPC1IwO9dVEeTLwQ==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      jest-get-type: 29.4.3
+      pretty-format: 29.6.1
+    dev: true
+
+  /jest-matcher-utils@29.6.1:
+    resolution: {integrity: sha512-SLaztw9d2mfQQKHmJXKM0HCbl2PPVld/t9Xa6P9sgiExijviSp7TnZZpw2Fpt+OI3nwUO/slJbOfzfUMKKC5QA==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      chalk: 4.1.2
+      jest-diff: 29.6.1
+      jest-get-type: 29.4.3
+      pretty-format: 29.6.1
