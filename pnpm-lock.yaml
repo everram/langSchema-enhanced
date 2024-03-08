@@ -1622,3 +1622,27 @@ packages:
       jest-haste-map: 29.6.1
       jest-pnp-resolver: 1.2.3(jest-resolve@29.6.1)
       jest-util: 29.6.1
+      jest-validate: 29.6.1
+      resolve: 1.22.2
+      resolve.exports: 2.0.2
+      slash: 3.0.0
+    dev: true
+
+  /jest-runner@29.6.1:
+    resolution: {integrity: sha512-tw0wb2Q9yhjAQ2w8rHRDxteryyIck7gIzQE4Reu3JuOBpGp96xWgF0nY8MDdejzrLCZKDcp8JlZrBN/EtkQvPQ==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      '@jest/console': 29.6.1
+      '@jest/environment': 29.6.1
+      '@jest/test-result': 29.6.1
+      '@jest/transform': 29.6.1
+      '@jest/types': 29.6.1
+      '@types/node': 18.16.19
+      chalk: 4.1.2
+      emittery: 0.13.1
+      graceful-fs: 4.2.11
+      jest-docblock: 29.4.3
+      jest-environment-node: 29.6.1
+      jest-haste-map: 29.6.1
+      jest-leak-detector: 29.6.1
+      jest-message-util: 29.6.1
