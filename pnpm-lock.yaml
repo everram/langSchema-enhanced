@@ -1590,3 +1590,35 @@ packages:
     resolution: {integrity: sha512-+3NpwQEnRoIBtx4fyhblQDPgJI0H1IEIkX7ShLUjPGA7TtUTvI1oiKi3SR4oBR0hQhQR80l4WAe5RrXBwWMA8w==}
     engines: {node: '>=6'}
     peerDependencies:
+      jest-resolve: '*'
+    peerDependenciesMeta:
+      jest-resolve:
+        optional: true
+    dependencies:
+      jest-resolve: 29.6.1
+    dev: true
+
+  /jest-regex-util@29.4.3:
+    resolution: {integrity: sha512-O4FglZaMmWXbGHSQInfXewIsd1LMn9p3ZXB/6r4FOkyhX2/iP/soMG98jGvk/A3HAN78+5VWcBGO0BJAPRh4kg==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dev: true
+
+  /jest-resolve-dependencies@29.6.1:
+    resolution: {integrity: sha512-BbFvxLXtcldaFOhNMXmHRWx1nXQO5LoXiKSGQcA1LxxirYceZT6ch8KTE1bK3X31TNG/JbkI7OkS/ABexVahiw==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      jest-regex-util: 29.4.3
+      jest-snapshot: 29.6.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /jest-resolve@29.6.1:
+    resolution: {integrity: sha512-AeRkyS8g37UyJiP9w3mmI/VXU/q8l/IH52vj/cDAyScDcemRbSBhfX/NMYIGilQgSVwsjxrCHf3XJu4f+lxCMg==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      chalk: 4.1.2
+      graceful-fs: 4.2.11
+      jest-haste-map: 29.6.1
+      jest-pnp-resolver: 1.2.3(jest-resolve@29.6.1)
+      jest-util: 29.6.1
