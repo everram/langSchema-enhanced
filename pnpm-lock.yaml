@@ -1717,3 +1717,44 @@ packages:
     dev: true
 
   /jest-util@29.6.1:
+    resolution: {integrity: sha512-NRFCcjc+/uO3ijUVyNOQJluf8PtGCe/W6cix36+M3cTFgiYqFOOW5MgN4JOOcvbUhcKTYVd1CvHz/LWi8d16Mg==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      '@jest/types': 29.6.1
+      '@types/node': 18.16.19
+      chalk: 4.1.2
+      ci-info: 3.8.0
+      graceful-fs: 4.2.11
+      picomatch: 2.3.1
+    dev: true
+
+  /jest-validate@29.6.1:
+    resolution: {integrity: sha512-r3Ds69/0KCN4vx4sYAbGL1EVpZ7MSS0vLmd3gV78O+NAx3PDQQukRU5hNHPXlyqCgFY8XUk7EuTMLugh0KzahA==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      '@jest/types': 29.6.1
+      camelcase: 6.3.0
+      chalk: 4.1.2
+      jest-get-type: 29.4.3
+      leven: 3.1.0
+      pretty-format: 29.6.1
+    dev: true
+
+  /jest-watcher@29.6.1:
+    resolution: {integrity: sha512-d4wpjWTS7HEZPaaj8m36QiaP856JthRZkrgcIY/7ISoUWPIillrXM23WPboZVLbiwZBt4/qn2Jke84Sla6JhFA==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      '@jest/test-result': 29.6.1
+      '@jest/types': 29.6.1
+      '@types/node': 18.16.19
+      ansi-escapes: 4.3.2
+      chalk: 4.1.2
+      emittery: 0.13.1
+      jest-util: 29.6.1
+      string-length: 4.0.2
+    dev: true
+
+  /jest-worker@29.6.1:
+    resolution: {integrity: sha512-U+Wrbca7S8ZAxAe9L6nb6g8kPdia5hj32Puu5iOqBCMTMWFHXuK6dOV2IFrpedbTV8fjMFLdWNttQTBL6u2MRA==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
