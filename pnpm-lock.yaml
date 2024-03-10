@@ -1684,3 +1684,36 @@ packages:
       slash: 3.0.0
       strip-bom: 4.0.0
     transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /jest-snapshot@29.6.1:
+    resolution: {integrity: sha512-G4UQE1QQ6OaCgfY+A0uR1W2AY0tGXUPQpoUClhWHq1Xdnx1H6JOrC2nH5lqnOEqaDgbHFgIwZ7bNq24HpB180A==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dependencies:
+      '@babel/core': 7.22.9
+      '@babel/generator': 7.22.9
+      '@babel/plugin-syntax-jsx': 7.22.5(@babel/core@7.22.9)
+      '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.22.9)
+      '@babel/types': 7.22.5
+      '@jest/expect-utils': 29.6.1
+      '@jest/transform': 29.6.1
+      '@jest/types': 29.6.1
+      '@types/prettier': 2.7.3
+      babel-preset-current-node-syntax: 1.0.1(@babel/core@7.22.9)
+      chalk: 4.1.2
+      expect: 29.6.1
+      graceful-fs: 4.2.11
+      jest-diff: 29.6.1
+      jest-get-type: 29.4.3
+      jest-matcher-utils: 29.6.1
+      jest-message-util: 29.6.1
+      jest-util: 29.6.1
+      natural-compare: 1.4.0
+      pretty-format: 29.6.1
+      semver: 7.5.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /jest-util@29.6.1:
