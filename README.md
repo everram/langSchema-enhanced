@@ -6,4 +6,6 @@
 
 ### 1. Install the Package
 ```bash
-npm i l
+npm i langSchema-enhanced
+```
+
