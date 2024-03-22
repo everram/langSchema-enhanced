@@ -4,4 +4,6 @@
 
 ## How to Use
 
-###
+### 1. Install the Package
+```bash
+npm i l
