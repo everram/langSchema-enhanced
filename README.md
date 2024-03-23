@@ -12,4 +12,6 @@ npm i langSchema-enhanced
 ### 2. Use Any of Our One-Line Parsers
 
 ```javascript
-import { bool, list, categorize, asZodType } 
+import { bool, list, categorize, asZodType } from 'langSchema-enhanced'
+
+c
