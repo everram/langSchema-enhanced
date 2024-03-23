@@ -9,4 +9,7 @@
 npm i langSchema-enhanced
 ```
 
-### 2. Use Any of Our One-Li
+### 2. Use Any of Our One-Line Parsers
+
+```javascript
+import { boo
