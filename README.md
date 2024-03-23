@@ -14,4 +14,4 @@ npm i langSchema-enhanced
 ```javascript
 import { bool, list, categorize, asZodType } from 'langSchema-enhanced'
 
-c
+const isGood: boolea
