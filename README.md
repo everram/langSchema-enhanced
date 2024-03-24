@@ -14,4 +14,6 @@ npm i langSchema-enhanced
 ```javascript
 import { bool, list, categorize, asZodType } from 'langSchema-enhanced'
 
-const isGood: boolean = await bool('Is this review positive? Review: Best bang for your buck.'
+const isGood: boolean = await bool('Is this review positive? Review: Best bang for your buck.')
+
+const foodsAte: string[] = await
