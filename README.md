@@ -17,4 +17,4 @@ import { bool, list, categorize, asZodType } from 'langSchema-enhanced'
 const isGood: boolean = await bool('Is this review positive? Review: Best bang for your buck.')
 
 const foodsAte: string[] = await list(
-  'What foods did this review user like? Review:
+  'What foods did this review user like? Review: i loved pizza and milkshakes
