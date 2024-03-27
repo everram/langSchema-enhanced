@@ -21,4 +21,5 @@ const foodsAte: string[] = await list(
   ['pizza', 'burger', 'fries']
 )
 
-const rating: string = await categorize
+const rating: string = await categorize(
+  `What rating would this re
