@@ -23,4 +23,4 @@ const foodsAte: string[] = await list(
 
 const rating: string = await categorize(
   `What rating would this review user give?
-  Review: could NO
+  Review: could NOT recommend it more, best ive e
