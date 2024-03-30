@@ -24,4 +24,7 @@ const foodsAte: string[] = await list(
 const rating: string = await categorize(
   `What rating would this review user give?
   Review: could NOT recommend it more, best ive ever eaten`, 
-  ['1 star', '2 stars', '3 stars', '4 st
+  ['1 star', '2 stars', '3 stars', '4 stars', '5 stars']
+)
+
+const userSche
