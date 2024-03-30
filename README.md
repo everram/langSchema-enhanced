@@ -27,4 +27,5 @@ const rating: string = await categorize(
   ['1 star', '2 stars', '3 stars', '4 stars', '5 stars']
 )
 
-const userSche
+const userSchema = z.object({
+  name: z.string(
