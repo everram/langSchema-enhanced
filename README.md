@@ -28,4 +28,8 @@ const rating: string = await categorize(
 )
 
 const userSchema = z.object({
-  name: z.string(
+  name: z.string(),
+  age: z.number(),
+})
+
+const us
