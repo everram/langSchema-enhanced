@@ -34,4 +34,8 @@ const userSchema = z.object({
 
 const user = await asZodType('hi my name is John and im 21 years old', userSchema)
 // => { name: "John", age: 21 }
-`
+```
+
+## Features
+
+### Boolean Parser
