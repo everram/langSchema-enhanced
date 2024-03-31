@@ -32,4 +32,4 @@ const userSchema = z.object({
   age: z.number(),
 })
 
-const user = await asZodType('hi my name
+const user = await asZodType('hi my name is John and im 21 years old', use
