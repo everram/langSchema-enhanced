@@ -39,4 +39,4 @@ const user = await asZodType('hi my name is John and im 21 years old', userSchem
 ## Features
 
 ### Boolean Parser
-Useful for parsing outputs that 
+Useful for parsing outputs that are in a binary format, i.e., `true` or `
