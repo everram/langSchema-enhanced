@@ -42,4 +42,4 @@ const user = await asZodType('hi my name is John and im 21 years old', userSchem
 Useful for parsing outputs that are in a binary format, i.e., `true` or `false`.
 
 ### Categorize Parser
-It assists in parsing outputs
+It assists in parsing outputs that can be categorized into a
