@@ -45,4 +45,4 @@ Useful for parsing outputs that are in a binary format, i.e., `true` or `false`.
 It assists in parsing outputs that can be categorized into a specific set of strings (enums).
 
 ### List Parser
-This is inte
+This is intended to parse outputs t
