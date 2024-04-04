@@ -44,3 +44,5 @@ Useful for parsing outputs that are in a binary format, i.e., `true` or `false`.
 ### Categorize Parser
 It assists in parsing outputs that can be categorized into a specific set of strings (enums).
 
+### List Parser
+This is inte
