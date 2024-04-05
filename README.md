@@ -48,4 +48,6 @@ It assists in parsing outputs that can be categorized into a specific set of str
 This is intended to parse outputs that are lists of specific set of strings (enums).
 
 ### Zod Parser
-Parse 
+Parse ANY zod type with this parser.
+
+O
