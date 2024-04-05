@@ -50,4 +50,4 @@ This is intended to parse outputs that are lists of specific set of strings (enu
 ### Zod Parser
 Parse ANY zod type with this parser.
 
-O
+Original repo owned by everram
